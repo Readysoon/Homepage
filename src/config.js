@@ -7,6 +7,12 @@ module.exports = {
       url: 'https://github.com/Readysoon',
     },
     {
+      name: 'Linkedin',
+      url: 'https://www.linkedin.com/in/philipp-gallaschik-a7533b227/',
+    },
+    {
+      /*
+    {
       name: 'Instagram',
       url: '',
     },
@@ -15,12 +21,10 @@ module.exports = {
       url: '',
     },
     {
-      name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/philipp-gallaschik-a7533b227/',
-    },
-    {
       name: 'Codepen',
       url: '',
+    },
+    */
     },
   ],
 
