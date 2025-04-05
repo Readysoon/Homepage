@@ -1,7 +1,7 @@
 ---
 date: '2021-2022'
 title: 'Medical Intern'
-company: 'Helios Klinikum Berlin Buch'
+company: 'Helios Berlin'
 location: 'Berlin, DE'
 range: '2021 - 2022'
 url: 'https://www.helios-gesundheit.de/kliniken/berlin-buch/'
