@@ -157,13 +157,11 @@ const About = () => {
             </p>
 
             <p>
-              Fast-forward to today, and I've had the privilege of working at
-              <a href="https://www.helios-gesundheit.de/kliniken/berlin-buch/">
-                a major hospital
-              </a>,{' '}
-              <a href="https://www.diagnostikum-berlin.de/">a radiological practice network</a>, and
+              Fast-forward to today, and I've had the privilege of working at{' '}
+              <a href="https://www.helios-gesundheit.de/kliniken/berlin-buch/">a major hospital</a>,{' '}
+              <a href="https://www.diagnostikum-berlin.de/">a radiological practice network</a>, and{' '}
               <a href="https://code.berlin/en/">a cutting-edge software engineering university</a>.
-              My main focus these days is building innovative healthcare applications at
+              My main focus these days is building innovative healthcare applications at{' '}
               <a href="https://www.scanlytics.de">Scanlytics</a> that bridge the gap between
               clinical expertise and technological advancement, creating solutions that make
               radiological diagnostics more efficient and precise.
