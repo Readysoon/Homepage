@@ -3,7 +3,7 @@ date: '2023-2024'
 title: 'MTA/MFA Werkstudent'
 company: 'Diagnostikum'
 location: 'Berlin, DE'
-range: '2023 - 2024'
+range: '2023 - 2025'
 url: 'https://www.diagnostikum-berlin.de/'
 ---
 
