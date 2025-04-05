@@ -1,15 +1,12 @@
-# fly.toml app configuration file generated for gallaschik-eu-homepage on 2025-04-05T15:06:17+02:00
+# fly.toml app configuration file generated for gallaschik on 2025-04-05T19:30:50+02:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'gallaschik-eu-homepage'
+app = 'gallaschik'
 primary_region = 'fra'
 
 [build]
-
-[env]
-  PORT = '8080'
 
 [http_service]
   internal_port = 8080
