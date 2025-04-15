@@ -68,7 +68,7 @@ const Hero = () => {
         I’m a software engineer and medical doctor specializing in building medical software for
         doctor. Currently, I build a conversational AI assistant for Radiologists at{' '}
         <a href="https://code.berlin" target="_blank" rel="noreferrer">
-          Code Univiersity
+          Code University
         </a>{' '}
         in Berlin.
       </p>
