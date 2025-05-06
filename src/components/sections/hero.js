@@ -65,8 +65,8 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a software engineer and medical doctor specializing in building medical software for
-        doctor. Currently, I build a conversational AI assistant for Radiologists at{' '}
+        I’m a software engineer and medical doctor specializing in building software for medical IT
+        companies. Currently, I build a conversational AI assistant for Radiologists at{' '}
         <a href="https://code.berlin" target="_blank" rel="noreferrer">
           Code University
         </a>{' '}
