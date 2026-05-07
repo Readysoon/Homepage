@@ -1,4 +1,6 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-npm run lint-staged
+# babel-preset-gatsby refuses to run outside a real Gatsby build context;
+# NODE_ENV=test bypasses that so eslint can lint via lint-staged
+NODE_ENV=test npm run lint-staged
