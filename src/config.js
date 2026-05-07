@@ -1,5 +1,5 @@
 module.exports = {
-  email: 'philipp@gallaschik.eu',
+  email: 'philipp.gallaschik@i-med.ac.at',
 
   socialMedia: [
     {

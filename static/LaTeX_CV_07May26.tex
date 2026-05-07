@@ -1,0 +1,215 @@
+%%%%%%%%%%%%%%%%%
+% CV Philipp Gallaschik — based on altacv.cls
+%%%%%%%%%%%%%%%%
+
+\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
+
+\geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm,columnsep=1.2cm}
+
+\usepackage{paracol}
+
+\iftutex
+  \setmainfont{Lato}
+\else
+  \usepackage[default]{lato}
+\fi
+
+% Colors — matching the dark-red/maroon palette of the original CV
+\definecolor{DarkRed}{HTML}{8B1A1A}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{DarkRed}
+\colorlet{headingrule}{DarkRed}
+\colorlet{accent}{DarkRed}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\renewcommand{\cvItemMarker}{{\small\textbullet}}
+\renewcommand{\cvRatingMarker}{\faCircle}
+
+% No publications section
+% \input{pubs-num.tex}
+% \addbibresource{sample.bib}
+
+\begin{document}
+\name{Philipp Gallaschik}
+\tagline{Medical Doctor \& Software Engineer}
+\photoR{2.5cm}{me}
+\personalinfo{%
+  \email{philipp.gallaschik@i-med.ac.at}
+  \mailaddress{Kaiser-Josef-Straße 1, 6020 Innsbruck}
+  \location{Innsbruck, Austria}
+  \github{Readysoon}
+  \linkedin{philipp-gallaschik-a7533b227}
+}
+
+\makecvheader
+
+\AtBeginEnvironment{itemize}{\small}
+\columnratio{0.6}
+
+\begin{paracol}{2}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LEFT COLUMN
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cvsection{Professional Experience}
+
+\cvevent{Software Engineering Studies}{CODE University of Applied Sciences}{2021 -- 2025}{Berlin}
+\begin{itemize}
+\item Developed full-stack healthcare applications with focus on medical data analysis
+\item Created Scanlytics, a medical imaging analysis platform with machine learning capabilities
+\item Collaborated in agile teams using project-based learning approaches
+\end{itemize}
+
+\divider
+
+\cvevent{Werksstudent}{Diagnostikum Berlin}{2023 -- 2024}{Berlin}
+\begin{itemize}
+\item Employment as MTA and MFA in various radiological practices in Berlin
+\item Applied software engineering knowledge to improve clinical workflows
+\end{itemize}
+
+\divider
+
+\cvevent{Practical Year}{Helios Klinikum Berlin Buch}{2021 -- 2022}{Berlin}
+\begin{itemize}
+\item Rotation through Internal Medicine, Surgery, Radiology, Oncology, and Psychiatry
+\end{itemize}
+
+\divider
+
+\cvevent{Clinical Rotations \& Famulaturen}{Various Hospitals}{2014 -- 2020}{Germany \& Switzerland}
+\begin{itemize}
+\item \textbf{2020} --- 6th Famulatur: Psychiatric Covid Admission Ward, BKH Schwaben
+\item \textbf{2020} --- 5th Famulatur: Voluntary Covid ICU Support, UK Augsburg
+\item \textbf{2020} --- 4th Famulatur: General Medicine, Gemeinschaftspraxis Dr.\ Sewczik (Gessertshausen)
+\item \textbf{2019} --- 3rd Famulatur: Anesthesia, UK Augsburg
+\item \textbf{2019} --- 2nd Famulatur: Surgery, Kantonsspital Thun (Prof.\ Dr.\ G.\,R.\ Linke)
+\item \textbf{2017} --- 1st Famulatur: Oncology (Colorectal Cancer Center), UK Augsburg
+\item \textbf{2015 -- 2017} --- Nursing Internships (1--3): Diako Augsburg, Hessing-Park Clinic Gersthofen, UK Augsburg
+\item \textbf{2014} --- Occupational Medicine Internship: Dr.\ Lippert, Neusäß
+\end{itemize}
+
+\cvsection{Projects}
+
+\cvevent{Scanlytics}{Healthcare Data Analysis Platform}{2022 -- 2024}{}
+\begin{itemize}
+\item Developed a platform that automates medical reporting, a crucial and time-consuming part in healthcare
+\item Created software that dynamically generates structured radiological reports based on medical images and renders them into ready doctor letters
+\item Implemented RESTful APIs for secure patient data management
+\item Mapped out a roadmap for expansion to MRI/CT technology and eventually report generation for internal medicine and other medical specialties
+\end{itemize}
+
+\divider
+
+\cvevent{Setbox}{Learning Automation Tool for Medical Students}{2022}{}
+\begin{itemize}
+\item Developed an automation tool to enhance learning efficiency for medical students
+\item Implemented spaced repetition algorithms to optimize knowledge retention
+\item Created a user-friendly interface to streamline the learning process
+\end{itemize}
+
+\cvsection{Personal Details}
+
+\cvevent{Date of Birth}{October 17, 1995}{}{}
+
+\smallskip
+
+\cvevent{Parents}{}{}{}
+\begin{itemize}
+\item Dipl.\ med Birgit Gallaschik (General Medicine)
+\item Dr.\ Andreas Jablonski (Anesthesia)
+\end{itemize}
+
+\switchcolumn
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% RIGHT COLUMN
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cvsection{Life Philosophy}
+\begin{quote}
+``The future of medicine lies at the intersection of human expertise and automation. By leveraging technology to handle routine tasks, we free physicians to focus on what truly matters---the human connection in healthcare.''
+\end{quote}
+
+\cvsection{Core Values}
+
+\cvachievement{\faLightbulb}{Innovation-Driven}{Combining medical expertise with software engineering to create healthcare solutions}
+
+\divider
+
+\cvachievement{\faUsers}{Collaborative Mindset}{Thriving in interdisciplinary teams bridging healthcare and technology}
+
+\divider
+
+\cvachievement{\faRocket}{Entrepreneurial Thinking}{Identifying healthcare challenges and developing technical solutions}
+
+\divider
+
+\cvachievement{\faHeart}{Purpose-Oriented}{Committed to improving patient care through technology}
+
+\cvsection{Programming}
+
+\cvskill{Python}{5}
+\cvskill{Docker}{3.5}
+\cvskill{Rust}{3}
+\cvskill{JavaScript}{3}
+
+\cvsection{Frameworks/Skills}
+
+\cvtag{REST APIs}
+\cvtag{Git}
+\cvtag{SurrealDB}
+\cvtag{PostgreSQL}
+\cvtag{Sveltekit}
+\cvtag{Cyber Security}
+\cvtag{CI/CD}
+\cvtag{Test-Driven Development}
+\cvtag{Agile/Scrum}
+
+\cvsection{Education}
+
+\cvevent{Software Engineering (B.Sc.)}{CODE University of Applied Sciences}{2021 -- 2025}{Berlin}
+\begin{itemize}
+\item Project-based learning with focus on full-stack development
+\item Specialization in healthcare applications and data analysis
+\end{itemize}
+
+\divider
+
+\cvevent{Medical Studies}{Wroclaw Medical University}{2014 -- 2021}{}
+\begin{itemize}
+\item Completed 3rd State Examination with 71{,}07\%
+\end{itemize}
+
+\divider
+
+\cvevent{Allgemeine Hochschulreife (Abitur)}{Landheim Schondorf am Ammersee \\ Ernst-Reisinger Gymnasium}{2011 -- 2014}{}
+
+\divider
+
+\cvevent{Gymnasium}{Justus-von-Liebig Gymnasium Neusäß}{2006 -- 2011}{}
+
+\cvsection{Languages}
+
+\cvskill{German (Native)}{5}
+\cvskill{English (Fluent)}{5}
+\cvskill{Polish (Basic)}{2}
+\cvskill{Latin (Großes Latinum)}{4}
+
+\cvsection{Interests \& Hobbies}
+
+\cvtag{Hiking}
+\cvtag{Swimming}
+\cvtag{Sailing}
+\cvtag{Climbing}
+\cvtag{Kite Surfing}
+\cvtag{Diving}
+\cvtag{Open Source}
+\cvtag{MedTech}
+
+\end{paracol}
+
+\end{document}
