@@ -70,13 +70,20 @@ const Hero = () => {
         <a href="https://www.i-med.ac.at/de/medemsa/" target="_blank" rel="noreferrer">
           MeDeMSA
         </a>{' '}
-        research project at the Medical University of Innsbruck, developing AI-supported diagnostics
-        for multiple system atrophy (MSA).
+        research project at the{' '}
+        <a href="https://www.i-med.ac.at/" target="_blank" rel="noreferrer">
+          Medical University of Innsbruck
+        </a>
+        , developing AI-supported diagnostics for multiple system atrophy (MSA).
       </p>
     </>
   );
   const five = (
-    <a className="email-link" href="https://scanlytics.de/" target="_blank" rel="noreferrer">
+    <a
+      className="email-link"
+      href="https://www.i-med.ac.at/de/medemsa/"
+      target="_blank"
+      rel="noreferrer">
       Check out our latest project!
     </a>
   );
