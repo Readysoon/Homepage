@@ -66,11 +66,12 @@ const Hero = () => {
     <>
       <p>
         I’m a software engineer and medical doctor specializing in building software for medical IT
-        companies. Currently, I build a conversational AI assistant for Radiologists at{' '}
-        <a href="https://code.berlin" target="_blank" rel="noreferrer">
-          Code University
+        companies. Currently, I work on the{' '}
+        <a href="https://www.i-med.ac.at/de/medemsa/" target="_blank" rel="noreferrer">
+          MeDeMSA
         </a>{' '}
-        in Berlin.
+        research project at the Medical University of Innsbruck, developing AI-supported diagnostics
+        for multiple system atrophy (MSA).
       </p>
     </>
   );

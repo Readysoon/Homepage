@@ -60,10 +60,10 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        I'm currently looking for research or software development opportunities that I can balance
-        alongside writing my bachelor thesis in software engineering, with a particular interest in
-        medical imaging and healthcare technology projects. Whether you have a job opportunity or
-        just want to say hi, I’ll try my best to get back to you!
+        I'm not actively looking for new opportunities right now, but I'm always happy to connect
+        for a technical exchange — especially around medical imaging, healthcare technology, or
+        anything at the intersection of medicine and software. Whether you want to swap ideas or
+        just say hi, I'll try my best to get back to you!
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>

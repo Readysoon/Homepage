@@ -161,10 +161,12 @@ const About = () => {
               <a href="https://www.helios-gesundheit.de/kliniken/berlin-buch/">a major hospital</a>,{' '}
               <a href="https://www.diagnostikum-berlin.de/">a radiological practice network</a>, and{' '}
               <a href="https://code.berlin/en/">a cutting-edge software engineering university</a>.
-              My main focus these days is building innovative healthcare applications at{' '}
-              <a href="https://www.scanlytics.de">Scanlytics</a> that bridge the gap between
-              clinical expertise and technological advancement, creating solutions that make
-              radiological diagnostics more efficient and precise.
+              My main focus these days is the{' '}
+              <a href="https://www.i-med.ac.at/de/medemsa/">MeDeMSA</a> research project at the
+              Medical University of Innsbruck, where we develop personalized diagnostic and
+              therapeutic approaches for people with multiple system atrophy (MSA) — combining
+              AI-supported diagnostics, telemedicine, and bioethical frameworks to enable earlier
+              identification and improve quality of life for patients and caregivers.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
