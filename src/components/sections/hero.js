@@ -66,11 +66,7 @@ const Hero = () => {
     <>
       <p>
         I’m a software engineer and medical doctor specializing in building software for medical IT
-        companies. Currently, I work on the{' '}
-        <a href="https://www.i-med.ac.at/de/medemsa/" target="_blank" rel="noreferrer">
-          MeDeMSA
-        </a>{' '}
-        research project at the{' '}
+        companies. Currently, I work on the MeDeMSA research project at the{' '}
         <a href="https://www.i-med.ac.at/" target="_blank" rel="noreferrer">
           Medical University of Innsbruck
         </a>
