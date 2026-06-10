@@ -31,6 +31,7 @@ const IconLogo = () => (
               L 34.291667,42.2
               Z"
           fill="currentColor"
+          fillRule="evenodd"
         />
       </g>
     </g>
