@@ -14,7 +14,7 @@ const projects = [
     title: 'Hitchpedia',
     tagline:
       'A shared, curl-able knowledge base of fixes for the errors developers and AI agents keep hitting.',
-    slug: '/pensieve/hitchpedia',
+    slug: '/projects/hitchpedia',
     date: '2026-07',
     tags: ['Python', 'FastAPI', 'Postgres', 'Agents'],
   },

@@ -3,7 +3,7 @@ title: Hitchpedia
 description: A shared, curl-able knowledge base of fixes for the errors developers and AI agents keep hitting.
 date: 2026-07-01
 draft: false
-slug: /pensieve/hitchpedia
+slug: /projects/hitchpedia
 tags:
   - Projects
   - Agents
