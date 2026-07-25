@@ -74,15 +74,7 @@ const Hero = () => {
       </p>
     </>
   );
-  const five = (
-    <a
-      className="email-link"
-      href="https://www.i-med.ac.at/de/medemsa/"
-      target="_blank"
-      rel="noreferrer">
-      Check out our latest project!
-    </a>
-  );
+  const five = null;
 
   const items = [one, two, three, four, five];
 

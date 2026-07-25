@@ -45,6 +45,10 @@ module.exports = {
       name: 'Contact',
       url: '/#contact',
     },
+    {
+      name: 'Projects',
+      url: '/projects',
+    },
   ],
 
   colors: {
