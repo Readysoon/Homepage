@@ -11,6 +11,14 @@ import { usePrefersReducedMotion } from '@hooks';
 
 const projects = [
   {
+    title: 'ParaWorld',
+    tagline:
+      'A tiny browser-sized city builder — zone, watch the economy, try to keep the budget black.',
+    slug: '/projects/paraworld',
+    date: '2026-10',
+    tags: ['Game', 'Simulation', 'Three.js'],
+  },
+  {
     title: 'Hitchpedia',
     tagline:
       'A shared, curl-able knowledge base of fixes for the errors developers and AI agents keep hitting.',
